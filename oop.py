@@ -60,18 +60,7 @@ class Admin(User):
     def __repr__(self):
         """Affichage lisible de l'objet Admin."""
         return f"Admin(username='{self.username}', email='{self.email}', age={self.age})"
-    
 
-
-
-
-
-
-
-
-
-
-    
 
 # Et maintenant on test tout ca, sans json, sans pytest, pas la peine : 
 
