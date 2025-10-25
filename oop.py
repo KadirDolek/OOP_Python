@@ -62,6 +62,17 @@ class Admin(User):
         return f"Admin(username='{self.username}', email='{self.email}', age={self.age})"
     
 
+
+
+
+
+
+
+
+
+
+    
+
 # Et maintenant on test tout ca, sans json, sans pytest, pas la peine : 
 
 if __name__ == "__main__":
